@@ -1,0 +1,4 @@
+User-Agent: googlebot  
+Allow: / 
+
+Sitemap: sitemap.xml 

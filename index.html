@@ -1,12 +1,37 @@
 <!DOCTYPE html>
-<html lang="en" dir="">
+<html lang="es" dir="">
 <head>
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "graph":
+      [
+        {
+          "@type": "SoftwareApplication",
+          "@id": "Entremed",
+          "operatingSystem": [Chrome, Safari, Edge, Firefox],
+          "keywords": "trabajos,enfermería,enfermera,tens,psicología,psicólogos",
+          "description": "plataforma para encontrar trabajo en salud",
+          "applicationCategory": "WebApplication, MobileApplication",
+          "applicationSubCategory": "joblistingsite"
+        },
+        {
+          "@type": "Organization",
+          "url": "https://www.entremed.io",
+          "logo": "https://www.entremed.io/assets/svg/logos/logo.svg"
+        }
+      ]
+    }
+  </script>
+
   <!-- Required Meta Tags Always Come First -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Title -->
-  <title>Entremed | Busco Trabajo</title>
+  <title>Entremed | Encuentra trabajo en el rubro de salud en Chile</title>
+  <meta name="description" content="En Entremed proveemos herramientas y contenido para que enfermeras, técnicos en enfermería, TENS y psicólogos se preparen correctamente y encuentren trabajo. A través de cursos online, un potente buscador online y alertas de nuevas ofertas disponibles online ayudamos a profesionales a encontrar trabajo.">
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="./favicon.ico">
@@ -32,7 +57,7 @@
   <!-- End Google Tag Manager -->
 </head>
 
-<body id="homeSection"  class="position-relative">
+<body class="position-relative">
 
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PZKQMWX5"
@@ -84,7 +109,7 @@
 
               <!-- Mega Menu -->
               <div class="hs-sub-menu dropdown-menu" aria-labelledby="contentMegaMenu" style="min-width: 14rem;">
-                <a class="dropdown-item disabled" href="#">Cursos Online<span class="badge bg-danger rounded-pill ms-1">Pronto</span></a>
+                <a class="dropdown-item" href="./cursos/index.html">Cursos<span class="badge bg-success rounded-pill ms-1">Nuevo</span></a>
                 <a class="dropdown-item disabled" href="#">Blog<span class="badge bg-danger rounded-pill ms-1">Pronto</span></a>
               </div>
               <!-- End Mega Menu -->
@@ -113,7 +138,7 @@
   <!-- ========== MAIN CONTENT ========== -->
   <main id="content" role="main">
     <!-- Hero -->
-    <div class="container position-relative content-space-t-3 content-space-t-md-4 content-space-t-lg-4">
+    <div id="homeSection" class="container position-relative content-space-t-3 content-space-t-md-4 content-space-t-lg-4">
       <div class="row justify-content-lg-between align-items-lg-center">
         <div class="col-md-10 col-lg-5">
           <!-- Heading -->
@@ -136,7 +161,7 @@
           </div>
           <!-- End Title & Description -->
           <a class="btn btn-primary btn-transition me-2" href="#" data-bs-toggle="modal" data-bs-target="#signupModal">
-            Inscribete Ahora<i class="bi-chevron-right small ms-1"></i>
+            Registrarme<i class="bi-chevron-right small ms-1"></i>
           </a>
           
         </div>
@@ -144,7 +169,7 @@
 
         <div class="col-lg-6">
             <div class="d-none d-lg-block">
-                <img class="img-fluid" src="./assets/svg/illustrations/oc-growing.svg" alt="Image Description">
+                <img class="img-fluid" src="./assets/svg/illustrations/persona-subiendo-escaleras.svg" alt="Ilustración de una persona subiendo escaleras. Las va va dibujando con un lápiz gigante a medida que sube.">
             </div>
         </div>
         <!-- End Col -->
@@ -153,121 +178,121 @@
     </div>
     <!-- End Hero -->
 
-    <!-- Icon Blocks -->
-    <div id="featuresSection" class="container content-space-t-2 content-space-t-lg-3">
-      <!-- Heading -->
-      <div class="w-lg-75 text-center mx-auto mb-5 mb-sm-9">
-        <h2 class="h1">Que puedes hacer con Entremed?</h2>
-        <p>Deja que hagamos el trabajo duro y enfócate en lograr que te respondan los empleadores que deseas.</p>
-      </div>
-      <!-- End Heading -->
-
-      <div class="row">
-        <div class="col-md-4 mb-7">
-          <!-- Icon Blocks -->
-          <div class="text-center px-lg-3">
-            <span class="svg-icon svg-icon-lg text-primary mb-3">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M15.6 5.59998L20.9 10.9C21.3 11.3 21.3 11.9 20.9 12.3L17.6 15.6L11.6 9.59998L15.6 5.59998ZM2.3 12.3L7.59999 17.6L11.6 13.6L5.59999 7.59998L2.3 10.9C1.9 11.3 1.9 11.9 2.3 12.3Z" fill="#035A4B"/>
-              <path opacity="0.3" d="M17.6 15.6L12.3 20.9C11.9 21.3 11.3 21.3 10.9 20.9L7.59998 17.6L13.6 11.6L17.6 15.6ZM10.9 2.3L5.59998 7.6L9.59998 11.6L15.6 5.6L12.3 2.3C11.9 1.9 11.3 1.9 10.9 2.3Z" fill="#035A4B"/>
-              </svg>
-
-            </span>
-
-            <h3>Buscamos los trabajos por ti</h3>
-            <p>Encuentra todos los trabajos en salud ordenados en nuestra plataforma.</p>
-          </div>
-          <!-- End Icon Blocks -->
+    <div id="featuresSection" >
+      <!-- Icon Blocks -->
+      <div class="container content-space-t-2 content-space-t-lg-3">
+        <!-- Heading -->
+        <div class="w-lg-75 text-center mx-auto mb-5 mb-sm-9">
+          <h2 class="h1">Que puedes hacer con Entremed?</h2>
+          <p>Deja que hagamos el trabajo duro y enfócate en lograr que te respondan los empleadores que deseas.</p>
         </div>
-        <!-- End Col -->
+        <!-- End Heading -->
 
-        <div class="col-md-4 mb-7">
-          <!-- Icon Blocks -->
-          <div class="text-center px-lg-3">
-            
-            <span class="svg-icon svg-icon-lg text-primary mb-3">
+        <div class="row">
+          <div class="col-md-4 mb-7">
+            <!-- Icon Blocks -->
+            <div class="text-center px-lg-3">
+              <span class="svg-icon svg-icon-lg text-primary mb-3">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M15 19.5229C15 20.265 15.9624 20.5564 16.374 19.9389L22.2227 11.166C22.5549 10.6676 22.1976 10 21.5986 10H17V4.47708C17 3.73503 16.0376 3.44363 15.626 4.06106L9.77735 12.834C9.44507 13.3324 9.80237 14 10.4014 14H15V19.5229Z" fill="#035A4B"/>
-                <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M3 6.5C3 5.67157 3.67157 5 4.5 5H9.5C10.3284 5 11 5.67157 11 6.5C11 7.32843 10.3284 8 9.5 8H4.5C3.67157 8 3 7.32843 3 6.5ZM3 18.5C3 17.6716 3.67157 17 4.5 17H9.5C10.3284 17 11 17.6716 11 18.5C11 19.3284 10.3284 20 9.5 20H4.5C3.67157 20 3 19.3284 3 18.5ZM2.5 11C1.67157 11 1 11.6716 1 12.5C1 13.3284 1.67157 14 2.5 14H6.5C7.32843 14 8 13.3284 8 12.5C8 11.6716 7.32843 11 6.5 11H2.5Z" fill="#035A4B"/>
+                <path d="M15.6 5.59998L20.9 10.9C21.3 11.3 21.3 11.9 20.9 12.3L17.6 15.6L11.6 9.59998L15.6 5.59998ZM2.3 12.3L7.59999 17.6L11.6 13.6L5.59999 7.59998L2.3 10.9C1.9 11.3 1.9 11.9 2.3 12.3Z" fill="#035A4B"/>
+                <path opacity="0.3" d="M17.6 15.6L12.3 20.9C11.9 21.3 11.3 21.3 10.9 20.9L7.59998 17.6L13.6 11.6L17.6 15.6ZM10.9 2.3L5.59998 7.6L9.59998 11.6L15.6 5.6L12.3 2.3C11.9 1.9 11.3 1.9 10.9 2.3Z" fill="#035A4B"/>
                 </svg>
-            </span>
-  
-            <h3>Postula en 1 click</h3>
-            <p>No vuelvas a llenar las mismas respuestas una y otra vez. Nosotros lo hacemos por ti.</p>
+              </span>
+
+              <h3>Buscamos los trabajos por ti</h3>
+              <p>Encuentra todos los trabajos en salud ordenados en nuestra plataforma.</p>
+            </div>
+            <!-- End Icon Blocks -->
           </div>
-          <!-- End Icon Blocks -->
-        </div>
-        <!-- End Col -->
+          <!-- End Col -->
 
-        <div class="col-md-4 mb-7">
-          <!-- Icon Blocks -->
-          <div class="text-center px-lg-3">
-            
-            <span class="svg-icon svg-icon-lg text-primary mb-3">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M4.85714 1H11.7364C12.0911 1 12.4343 1.12568 12.7051 1.35474L17.4687 5.38394C17.8057 5.66895 18 6.08788 18 6.5292V19.0833C18 20.8739 17.9796 21 16.1429 21H4.85714C3.02045 21 3 20.8739 3 19.0833V2.91667C3 1.12612 3.02045 1 4.85714 1ZM7 13C7 12.4477 7.44772 12 8 12H15C15.5523 12 16 12.4477 16 13C16 13.5523 15.5523 14 15 14H8C7.44772 14 7 13.5523 7 13ZM8 16C7.44772 16 7 16.4477 7 17C7 17.5523 7.44772 18 8 18H11C11.5523 18 12 17.5523 12 17C12 16.4477 11.5523 16 11 16H8Z" fill="#035A4B"/>
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.85714 3H14.7364C15.0911 3 15.4343 3.12568 15.7051 3.35474L20.4687 7.38394C20.8057 7.66895 21 8.08788 21 8.5292V21.0833C21 22.8739 20.9796 23 19.1429 23H6.85714C5.02045 23 5 22.8739 5 21.0833V4.91667C5 3.12612 5.02045 3 6.85714 3ZM7 13C7 12.4477 7.44772 12 8 12H15C15.5523 12 16 12.4477 16 13C16 13.5523 15.5523 14 15 14H8C7.44772 14 7 13.5523 7 13ZM8 16C7.44772 16 7 16.4477 7 17C7 17.5523 7.44772 18 8 18H11C11.5523 18 12 17.5523 12 17C12 16.4477 11.5523 16 11 16H8Z" fill="#035A4B"/>
-                </svg>
-            </span>
-            
-            <h3>Te enseñamos técnicas</h3>
-            <p>Mejora tu curriculum y prepara tu entrevista con nuestros cursos.</p>
+          <div class="col-md-4 mb-7">
+            <!-- Icon Blocks -->
+            <div class="text-center px-lg-3">
+              
+              <span class="svg-icon svg-icon-lg text-primary mb-3">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M15 19.5229C15 20.265 15.9624 20.5564 16.374 19.9389L22.2227 11.166C22.5549 10.6676 22.1976 10 21.5986 10H17V4.47708C17 3.73503 16.0376 3.44363 15.626 4.06106L9.77735 12.834C9.44507 13.3324 9.80237 14 10.4014 14H15V19.5229Z" fill="#035A4B"/>
+                  <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M3 6.5C3 5.67157 3.67157 5 4.5 5H9.5C10.3284 5 11 5.67157 11 6.5C11 7.32843 10.3284 8 9.5 8H4.5C3.67157 8 3 7.32843 3 6.5ZM3 18.5C3 17.6716 3.67157 17 4.5 17H9.5C10.3284 17 11 17.6716 11 18.5C11 19.3284 10.3284 20 9.5 20H4.5C3.67157 20 3 19.3284 3 18.5ZM2.5 11C1.67157 11 1 11.6716 1 12.5C1 13.3284 1.67157 14 2.5 14H6.5C7.32843 14 8 13.3284 8 12.5C8 11.6716 7.32843 11 6.5 11H2.5Z" fill="#035A4B"/>
+                  </svg>
+              </span>
+    
+              <h3>Postula en 1 click</h3>
+              <p>No vuelvas a llenar las mismas respuestas una y otra vez. Nosotros lo hacemos por ti.</p>
+            </div>
+            <!-- End Icon Blocks -->
           </div>
-          <!-- End Icon Blocks -->
+          <!-- End Col -->
+
+          <div class="col-md-4 mb-7">
+            <!-- Icon Blocks -->
+            <div class="text-center px-lg-3">
+              
+              <span class="svg-icon svg-icon-lg text-primary mb-3">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M4.85714 1H11.7364C12.0911 1 12.4343 1.12568 12.7051 1.35474L17.4687 5.38394C17.8057 5.66895 18 6.08788 18 6.5292V19.0833C18 20.8739 17.9796 21 16.1429 21H4.85714C3.02045 21 3 20.8739 3 19.0833V2.91667C3 1.12612 3.02045 1 4.85714 1ZM7 13C7 12.4477 7.44772 12 8 12H15C15.5523 12 16 12.4477 16 13C16 13.5523 15.5523 14 15 14H8C7.44772 14 7 13.5523 7 13ZM8 16C7.44772 16 7 16.4477 7 17C7 17.5523 7.44772 18 8 18H11C11.5523 18 12 17.5523 12 17C12 16.4477 11.5523 16 11 16H8Z" fill="#035A4B"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M6.85714 3H14.7364C15.0911 3 15.4343 3.12568 15.7051 3.35474L20.4687 7.38394C20.8057 7.66895 21 8.08788 21 8.5292V21.0833C21 22.8739 20.9796 23 19.1429 23H6.85714C5.02045 23 5 22.8739 5 21.0833V4.91667C5 3.12612 5.02045 3 6.85714 3ZM7 13C7 12.4477 7.44772 12 8 12H15C15.5523 12 16 12.4477 16 13C16 13.5523 15.5523 14 15 14H8C7.44772 14 7 13.5523 7 13ZM8 16C7.44772 16 7 16.4477 7 17C7 17.5523 7.44772 18 8 18H11C11.5523 18 12 17.5523 12 17C12 16.4477 11.5523 16 11 16H8Z" fill="#035A4B"/>
+                  </svg>
+              </span>
+              
+              <h3>Te enseñamos técnicas</h3>
+              <p>Mejora tu curriculum y prepara tu entrevista con nuestros cursos.</p>
+            </div>
+            <!-- End Icon Blocks -->
+          </div>
+          <!-- End Col -->
         </div>
-        <!-- End Col -->
+        <!-- End Row -->
       </div>
-      <!-- End Row -->
-    </div>
-    <!-- End Icon Blocks -->
-
-    <!-- Devices -->
-    <div class="container">
-      <div class="w-75 mx-auto mb-7">
-        <img class="img-fluid" src="./assets/svg/components/three-pointers.svg" alt="SVG Arrow">
-      </div>
-
-      <!-- Heading -->
-      <div class="w-md-60 w-lg-50 text-center mx-auto mb-7">
-        <p><span class="text-dark fw-semibold">Conviertete en el candidato ideal.</span> Mejora tu curriculum y encuentra trabajo con nosotros.</p>
-      </div>
-      <!-- End Heading -->
+      <!-- End Icon Blocks -->
 
       <!-- Devices -->
-      <div class="devices">
-        <!-- Mobile Device -->
-        <figure class="device-mobile rotated-3d-right">
-          <div class="device-mobile-frame">
-            <img class="device-mobile-img" src="./assets/img/407x867/img1.avif" alt="Image Description">
-          </div>
-        </figure>
-        <!-- End Mobile Device -->
+      <div class="container">
+        <div class="w-75 mx-auto mb-7">
+          <img class="img-fluid" src="./assets/svg/components/three-pointers.svg" alt="Flechas SVG">
+        </div>
 
-        <!-- Browser Device -->
-        <figure class="device-browser">
-          <div class="device-browser-header">
-            <div class="device-browser-header-btn-list">
-              <span class="device-browser-header-btn-list-btn"></span>
-              <span class="device-browser-header-btn-list-btn"></span>
-              <span class="device-browser-header-btn-list-btn"></span>
+        <!-- Heading -->
+        <div class="w-md-60 w-lg-50 text-center mx-auto mb-7">
+          <p><span class="text-dark fw-semibold">Conviertete en el candidato ideal.</span> Mejora tu curriculum y encuentra trabajo con nosotros.</p>
+        </div>
+        <!-- End Heading -->
+
+        <!-- Devices -->
+        <div class="devices">
+          <!-- Mobile Device -->
+          <figure class="device-mobile rotated-3d-right">
+            <div class="device-mobile-frame">
+              <img class="device-mobile-img" src="./assets/img/407x867/pantallazo-app-movil.avif" alt="Una imagen de la pantalla de un celular mostrando un mockup de la aplicación móvil de Entremed.">
             </div>
-            <div class="device-browser-header-browser-bar">www.entremed.io/buscador</div>
-          </div>
+          </figure>
+          <!-- End Mobile Device -->
 
-          <div class="device-browser-frame">
-            <img class="device-browser-img" src="./assets/img/1618x1010/img1.avif" alt="Image Description">
-          </div>
-        </figure>
-        <!-- End Browser Device -->
+          <!-- Browser Device -->
+          <figure class="device-browser">
+            <div class="device-browser-header">
+              <div class="device-browser-header-btn-list">
+                <span class="device-browser-header-btn-list-btn"></span>
+                <span class="device-browser-header-btn-list-btn"></span>
+                <span class="device-browser-header-btn-list-btn"></span>
+              </div>
+              <div class="device-browser-header-browser-bar">www.entremed.io/buscador</div>
+            </div>
+
+            <div class="device-browser-frame">
+              <img class="device-browser-img" src="./assets/img/1618x1010/pantallazo-app-web.avif" alt="Una imagen de la pantalla de un computador mostrando un mockup de la aplicación web de Entremed.">
+            </div>
+          </figure>
+          <!-- End Browser Device -->
+        </div>
+        <!-- End Devices -->
+
+        <div class="text-center mx-auto" style="max-width: 20rem;">
+          <p class="small">Estamos lanzando de a poco. Tenemos disponible el plan gratuito y pronto lanzaremos versiones avanzadas.</p>
+        </div>
       </div>
       <!-- End Devices -->
-
-      <div class="text-center mx-auto" style="max-width: 20rem;">
-        <p class="small">Estamos lanzando de a poco. Tenemos disponible el plan gratuito y pronto lanzaremos versiones avanzadas.</p>
-      </div>
-    </div>
-    <!-- End Devices -->
-
+  </div>
     <!-- Feature Stats -->
     <div class="content-space-2 content-space-lg-3">
       <div class="bg-light rounded-2 mx-3 mx-xl-10">
@@ -338,7 +363,7 @@
       <!-- Heading -->
       <div class="w-lg-75 text-center mx-auto mb-5 mb-sm-9">
         <h2 class="h1">Planes a tu medida</h2>
-        <p>Todas las opciones para ayudarte a encontrar trabajo</p>
+        <p>Tenemos todas las opciones para ayudarte a encontrar trabajo</p>
       </div>
       <!-- End Heading -->
 
@@ -356,7 +381,7 @@
                 </span>
 
                 <h4 class="card-title">Inicio</h4>
-                <h3 class="card-title">Gratis</h3>
+                <h3 class="card-title">$0 / Mes</h3>
               </div>
 
               <div class="card-body">
@@ -368,7 +393,7 @@
 
               <div class="card-footer pt-0">
                 <div class="d-grid">
-                  <button type="button" href="#" data-bs-toggle="modal" data-bs-target="#signupModal" class="btn btn-primary btn-sm btn-transition">Crear cuenta</button>
+                  <button type="button" href="#" data-bs-toggle="modal" data-bs-target="#signupModal" class="btn btn-primary btn-sm btn-transition">Registrarme</button>
                 </div>
               </div>
             </div>
@@ -439,7 +464,7 @@
                 <ul class="list-checked list-checked-primary">
                     <li class="list-checked-item">Búsqueda de trabajos</li>
                     <li class="list-checked-item">Notificaciones WhatsApp y App</li>
-                    <li class="list-checked-item">Postulaciones en 1 Click ilimitado</li>
+                    <li class="list-checked-item">Postulaciones en 1 Click ilimitadas</li>
                     <li class="list-checked-item">Grupos de Comunidad</li>
                     <li class="list-checked-item">Talleres de Curriculum</li>
                     <li class="list-checked-item">Cursos online</li>
@@ -464,7 +489,7 @@
     <!-- Testimonials -->
     <div class="container content-space-b-2 content-space-b-lg-3">
       <div class="text-center mb-5">
-        <img class="avatar avatar-lg avatar-4x3" src="./assets/svg/illustrations/sofia.svg" alt="Illustration">
+        <img class="avatar avatar-lg avatar-4x3" src="./assets/svg/illustrations/caso-de-exito-sofia.svg" alt="Ilustración de una mujer en SVG">
       </div>
       
       <!-- Blockquote -->
@@ -491,7 +516,7 @@
                 <h2>Entremed te acompaña en todo tu viaje de postulación</h2>
               </div>
 
-              <a class="btn btn-outline-primary" href="#" data-bs-toggle="modal" data-bs-target="#signupModal">Inscribete Ahora</a>
+              <a class="btn btn-outline-primary" href="#" data-bs-toggle="modal" data-bs-target="#signupModal">Registrarme</a>
             </div>
             <!-- End Col -->
 
@@ -501,7 +526,7 @@
                 <!-- Browser Device -->
                 <figure class="device-browser-frame rotated-3d-left">
                   <div class="device-browser-frame">
-                    <img class="device-browser-img" src="./assets/img/1618x1010/img2.avif" alt="Image Description">
+                    <img class="device-browser-img" src="./assets/img/1618x1010/pantallazo-app-web-perfil-clinica.avif" alt="Una imagen de la pantalla de un computador mostrando un mockup de la aplicación web de Entremed. Perfil del hospital de concepción">
                   </div>
                 </figure>
                 <!-- End Browser Device -->
@@ -513,7 +538,7 @@
                 <!-- Browser Device -->
                 <figure class="device-browser-frame rotated-3d-left">
                   <div class="device-browser-frame">
-                    <img class="device-browser-img" src="./assets/img/1618x1010/img1.avif" alt="Image Description">
+                    <img class="device-browser-img" src="./assets/img/1618x1010/pantallazo-app-web.avif" alt="Una imagen de la pantalla de un computador mostrando un mockup de la aplicación web de Entremed. Buscador general.">
                   </div>
                 </figure>
                 <!-- End Browser Device -->
@@ -620,8 +645,9 @@
         <ul class="list-inline list-separator mb-0">
           <li class="list-inline-item"><a class="link-sm link-secondary" href="#">Soy Postulante</a></li>
           <li class="list-inline-item"><a class="link-sm link-secondary" href="./empleador/index.html">Soy Centro de Salud</a></li>
-          <li class="list-inline-item"><a class="link-sm link-secondary" href="#">Blog</a></li>
-          <li class="list-inline-item"><a class="link-sm link-secondary" href="#">Nosotros</a></li>
+          <li class="list-inline-item"><a class="link-sm link-secondary" href="./cursos/index.html">Cursos</a></li>
+          <!--li class="list-inline-item"><a class="link-sm link-secondary" href="#">Blog</a></li>
+          <li class="list-inline-item"><a class="link-sm link-secondary" href="#">Nosotros</a></li-->
         </ul>
         <!-- End List -->
       </div>
@@ -791,5 +817,44 @@
       }).addTo(leaflet)
     })()
   </script>
+
+  <script>
+    var url = 'https://wati-integration-prod-service.clare.ai/v2/watiWidget.js?55866';
+    var s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = url;
+    var options = {
+    "enabled":true,
+    "chatButtonSetting":{
+        "backgroundColor":"#00e785",
+        "ctaText":"",
+        "borderRadius":"25",
+        "marginLeft": "40",
+        "marginRight": "20",
+        "marginBottom": "20",
+        "ctaIconWATI":false,
+        "position":"left"
+    },
+    "brandSetting":{
+        "brandName":"Entremed",
+        "brandSubTitle":"Trabajo en Salud hecho fácil",
+        "brandImg":"https://www.wati.io/wp-content/uploads/2023/04/Wati-logo.svg",
+        "welcomeText":"Hola!\nCómo podemos ayudarte?",
+        "messageText":"Hola, %0ASoy profesional de la salud y tengo dudas. Me pueden ayudar por favor?",
+        "backgroundColor":"#00e785",
+        "ctaText":"Conversemos en WhatsApp!", 
+        "borderRadius":"25",
+        "autoShow":false,
+        "phoneNumber":"491702185708"
+    }
+    };
+    s.onload = function() {
+        CreateWhatsappChatWidget(options);
+    };
+    var x = document.getElementsByTagName('script')[0];
+    x.parentNode.insertBefore(s, x);
+  </script>
+  
 </body>
 </html>

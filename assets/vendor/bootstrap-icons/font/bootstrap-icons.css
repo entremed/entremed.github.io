@@ -31,6 +31,7 @@ url("./fonts/bootstrap-icons.woff?8d200481aa7f02a2d63a331fc782cfaf") format("wof
 .bi-x-circle-fill::before { content: "\f622"; }
 .bi-x-circle::before { content: "\f623"; }
 .bi-x-diamond-fill::before { content: "\f624"; }
+.bi-play-circle-fill::before { content: "\f4f2"; }
 .bi-x-diamond::before { content: "\f625"; }
 .bi-x-octagon-fill::before { content: "\f626"; }
 .bi-x-octagon::before { content: "\f627"; }
@@ -43,3 +44,6 @@ url("./fonts/bootstrap-icons.woff?8d200481aa7f02a2d63a331fc782cfaf") format("wof
 .bi-facebook::before { content: "\f344"; }
 .bi-send-check-fill::before { content: "\f6b2"; }
 .bi-send-check::before { content: "\f6b3"; }
+.bi-whatsapp::before { content: "\f618"; }
+.bi-book::before { content: "\f194"; }
+.bi-clock::before { content: "\f293"; }
